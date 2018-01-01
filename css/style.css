@@ -1,0 +1,98 @@
+
+/* ---------------------------
+          BODY
+----------------------------- */
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #f4f4ff;
+text-transform: uppercase;
+font-size: 2em;
+}
+
+
+* {
+outline: 0px !important;
+-webkit-appearance: none;
+}
+/* ---------------------------
+          MAIN
+ ----------------------------- */
+#main-container {
+width: 35%;
+margin-top: 40px;
+height: 580px;
+box-shadow: 10px 90px 50px;
+}
+
+.ion-clock {
+  font-size: 50px;
+}
+/* ---------------------------
+          HEADER
+ ----------------------------- */
+#heading-panel {
+
+width: 100%;
+padding:35px 0;
+color: #ffffff;
+text-align: center;
+background-color: #000;
+}
+
+
+.panel-2 {
+height: 100px;
+width: 100%;
+}
+#work-duration {
+text-align: center;
+width: 100%;
+padding: 10px;
+background-color: #ff7200;
+color: #ffffff;
+}
+
+#break-duration {
+text-align: center;
+width: 100%;
+padding: 10px;
+background-color: #ff7200;
+color: #ffffff;
+}
+/* ---------------------------
+          BUTTON
+ ----------------------------- */
+#button-panel {
+text-align: center;
+background-color: #000;
+height: auto;
+width: 100%;
+}
+.btn {
+background-color: transparent;
+text-transform: uppercase;
+border: none;
+color: #fff;
+border-radius: 0px;
+
+}
+.upperpanelBtn {
+height: 50px;
+font-size: 30px;
+}
+.upperpanelBtn:hover {
+background-color: #fc5d66;
+
+}
+
+#timer-panel {
+background-color: #fff;
+color: #000;
+height: 270px;
+width: 100%;
+text-align: center;
+padding: 20px;
+}
+#showtime {
+font-size: 40px;
+}

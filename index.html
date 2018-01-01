@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Timer</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+ </head>
+
+<body>
+
+<div class="container" id="main-container">
+    <div class="row">
+        <div class="col-xs-12" id="heading-panel">
+
+            <h3> Timer </h3>
+            <i class="ion-clock" aria-hidden="true"></i>
+        </div>
+
+        <div class="col-xs-12" id="work-duration">
+            <h7> Work Duration </h7>
+            <button class="btn btn-default upperpanelBtn" id="addWorkButton">+</button>
+            <h7 id="work-display"> 10</h7>
+            <button class="btn btn-default upperpanelBtn" id="minusWorkButton">-</button>
+        </div>
+
+        <div class="col-xs-12" id="break-duration">
+            <h7> Break Duration </h7>
+            <button class="btn btn-default upperpanelBtn" id="addBreakButton"> + </button>
+            <h7 id="break-display">1</h7>
+            <button class="btn btn-default upperpanelBtn" id=minusBreakButton> - </button>
+        </div>
+
+        <div class="col-xs-12" id="button-panel">
+            <button type="button" class="btn btn-success" id="start" onclick="start()">Start </button>
+            <button type="button" class="btn btn-warning" id="pause" onclick="pause()">Pause</button>
+            <button type="button" class="btn btn-danger" id="resume" onclick="resume()">Resume
+            </button>
+            <button type="button" class="btn btn-danger" id="reset" onclick="reset()">Reset
+            </button>
+        </div>
+
+        <div class="col-xs-12" id="timer-panel">
+            <span id="showtime"> </span>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+    <script src="js/main.js"></script>
+
+
+  </body>
+</html>
